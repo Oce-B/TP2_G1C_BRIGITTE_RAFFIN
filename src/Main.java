@@ -2,12 +2,23 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-    discriminant();
+    parite();
 
 
     }
-        public static void parite(int[] args){
+        public static void parite(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Veuillez entrer un entier");
+        int nombre = scanner.nextInt();
 
+        if (nombre%2==0){
+            System.out.println("Ce nombre est pair");
+            System.out.print(nombre);
+        }
+        else {
+            System.out.println("Ce nombre est impair");
+            System.out.print(nombre);
+        }
         }
 
     public static void discriminant(){
