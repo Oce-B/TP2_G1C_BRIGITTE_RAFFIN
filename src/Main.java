@@ -2,10 +2,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        discriminant();
+        egaliteStr();
 
 
     }
+
+
         public static void egaliteStr(){
             Scanner scanner = new Scanner(System.in);
 
@@ -14,6 +16,13 @@ public class Main {
 
             System.out.println("Veuillez entrer la première chaîne de carctère");
             String deuxiemeChaine = scanner.next();
+
+            if (premiereChaine.equals(deuxiemeChaine)){
+                System.out.println("Ces deux chaines sont égales");
+            }
+            else{
+                System.out.println("Ces deux chaines sont différentes");
+            }
 
         }
         public static void max(){
