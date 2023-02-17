@@ -3,11 +3,32 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) {
-        countdown();
+        tableMultiplication();
 
 
     }
 
+        public static void tableMultiplication(){
+
+        for (int i=1; i<=10; i++){
+
+
+            for (int j=1; j<=10;j++){
+                System.out.print(i*j);
+                System.out.print("   ");
+
+            }
+            System.out.printf("\n");
+        }
+
+
+        }
+        public static void carres(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Veuillez entrer un nombre");
+        int x = scanner.nextInt();
+        System.out.println("x = "+ x + "    xcarre = "+ x*x);
+        }
         public static void countdown(){
 
         for (int i=10; i>=0;i--) {
