@@ -1,11 +1,22 @@
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) {
-        factorielle();
+        countdown();
 
 
     }
+
+        public static void countdown(){
+
+        for (int i=10; i>=0;i--) {
+
+            System.out.print(i);
+            System.out.println(" ");
+        }
+            System.out.println("BOOM");
+        }
 
         public static void factorielle() {
 
