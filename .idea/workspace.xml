@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2f91803-c0d2-4917-8426-9161293667bf" name="Changes" comment="Fonction countdown ajoutée">
+    <list default="true" id="d2f91803-c0d2-4917-8426-9161293667bf" name="Changes" comment="Fonction tableMultiplication modifiée">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676649238195</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fonction tableMultiplication modifiée">
+      <created>1676650270416</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676650270416</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -109,6 +116,7 @@
     <MESSAGE value="Fonction egaliteStr ajoutée" />
     <MESSAGE value="Fonction factorielle ajoutée" />
     <MESSAGE value="Fonction countdown ajoutée" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fonction countdown ajoutée" />
+    <MESSAGE value="Fonction tableMultiplication modifiée" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fonction tableMultiplication modifiée" />
   </component>
 </project>

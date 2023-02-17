@@ -3,11 +3,21 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
     public static void main(String[] args) {
-        tableMultiplication();
+        division();
 
 
     }
-
+        public static void division(){
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Veuillez entrer le premier nombre");
+            double premierNombre = scanner.nextInt();
+            System.out.println("Veuillez entrer un second Nombre");
+            double secondNombre = scanner.nextInt();
+            if(secondNombre==0){
+                System.out.println("NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOON");
+            }
+           else { System.out.print(premierNombre/secondNombre);}
+        }
         public static void tableMultiplication(){
 
         for (int i=1; i<=10; i++){
