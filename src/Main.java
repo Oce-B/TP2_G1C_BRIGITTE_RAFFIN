@@ -2,10 +2,46 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-    parite();
+    min();
 
 
     }
+
+        public static void max(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Veuillez entrer le premier nombre");
+        int premierNombre = scanner.nextInt();
+        System.out.println("Veuillez entrer un second Nombre");
+        int secondNombre = scanner.nextInt();
+
+        if (premierNombre<secondNombre){
+            System.out.print(secondNombre);
+        } else if (secondNombre==premierNombre){
+            System.out.println("Ils sont égaux");
+        }
+        else{
+            System.out.print(premierNombre);
+        }
+        }
+
+
+    public static void min(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Veuillez entrer le premier nombre");
+        int premierNombre = scanner.nextInt();
+        System.out.println("Veuillez entrer un second Nombre");
+        int secondNombre = scanner.nextInt();
+
+        if (premierNombre>secondNombre){
+            System.out.print(secondNombre);
+        } else if (secondNombre==premierNombre){
+            System.out.println("Ils sont égaux");
+        }
+        else{
+            System.out.print(premierNombre);
+        }
+    }
+
         public static void parite(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Veuillez entrer un entier");
