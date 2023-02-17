@@ -2,12 +2,25 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        egaliteStr();
+        factorielle();
 
 
     }
 
+        public static void factorielle() {
 
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Veuillez entrer un entier positif ou nul");
+            int n = scanner.nextInt();
+
+            int factorielle= 1 ;
+            for (int i=1; i<=n; i++) {
+                factorielle*=i;
+            }
+
+            System.out.println(n + "! = " + factorielle);
+
+        }
         public static void egaliteStr(){
             Scanner scanner = new Scanner(System.in);
 
